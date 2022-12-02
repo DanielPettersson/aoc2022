@@ -1,11 +1,11 @@
-package file
+package puzzle
 
 import (
 	"bufio"
 	"os"
 )
 
-func ReadFile(fileName string) ([]string, error) {
+func ReadInput(fileName string) ([]string, error) {
 	file, err := os.Open(fileName)
 	if err != nil {
 		return nil, err

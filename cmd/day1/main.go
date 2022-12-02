@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/DanielPettersson/aoc2022/file"
+	"github.com/DanielPettersson/aoc2022/puzzle"
 )
 
 func main() {
-	lines, err := file.ReadFile("input.txt")
+	lines, err := puzzle.ReadInput("input.txt")
 	if err != nil {
 		panic(err)
 	}
